@@ -20,9 +20,9 @@
             $nick = $_POST['nick'];
             $pass = $_POST['pass'];
 
-            require_once('SignUp.php');
+            require_once('LogIn.php');
 
-            $Register = new SignUp($nick, $pass);
+            $Login = new LogIn($nick, $pass);
         }
 
     ?>

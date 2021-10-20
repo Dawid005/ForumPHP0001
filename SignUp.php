@@ -63,7 +63,7 @@ class SignUp {
         if($this->flag){
 
             $sql = "INSERT INTO users0001 (nick, pass)
-            VALUES('$nick','$password' )";
+            VALUES('$nick','$password')";
             $this->sqlQuery("localhost","root", "","forum0001", $sql);
             $this->nick = $nick;
             $this->password = $password;
